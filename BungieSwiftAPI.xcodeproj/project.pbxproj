@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		94B72D8921D674F0006C6192 /* BungieSwiftAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B72D8721D674F0006C6192 /* BungieSwiftAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B72D9121D677A8006C6192 /* PlatformErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9021D677A8006C6192 /* PlatformErrorCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94B72D8421D674F0006C6192 /* BungieSwiftAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BungieSwiftAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B72D8721D674F0006C6192 /* BungieSwiftAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BungieSwiftAPI.h; sourceTree = "<group>"; };
 		94B72D8821D674F0006C6192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B72D9021D677A8006C6192 /* PlatformErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformErrorCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		94B72D8621D674F0006C6192 /* BungieSwiftAPI */ = {
 			isa = PBXGroup;
 			children = (
+				94B72D8F21D674FE006C6192 /* Models */,
 				94B72D8721D674F0006C6192 /* BungieSwiftAPI.h */,
 				94B72D8821D674F0006C6192 /* Info.plist */,
 			);
 			path = BungieSwiftAPI;
+			sourceTree = "<group>";
+		};
+		94B72D8F21D674FE006C6192 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94B72D9021D677A8006C6192 /* PlatformErrorCode.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +106,7 @@
 				TargetAttributes = {
 					94B72D8321D674F0006C6192 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B72D9121D677A8006C6192 /* PlatformErrorCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		94B72D8D21D674F0006C6192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.werureo.BungieSwiftAPI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +301,7 @@
 		94B72D8E21D674F0006C6192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
