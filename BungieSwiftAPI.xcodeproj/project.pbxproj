@@ -7,15 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940C583721EFDAA0008A4304 /* DestinyManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C583621EFDAA0008A4304 /* DestinyManifest.swift */; };
+		940C583B21EFDC0F008A4304 /* GearAssetDataBaseDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C583A21EFDC0F008A4304 /* GearAssetDataBaseDefinition.swift */; };
+		94B6C4B021F0D55B0048C283 /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4AF21F0D55B0048C283 /* DateRange.swift */; };
+		94B6C4B321F0D58B0048C283 /* ApiUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4B221F0D58B0048C283 /* ApiUsage.swift */; };
+		94B6C4B521F0D5A60048C283 /* Datapoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4B421F0D5A60048C283 /* Datapoint.swift */; };
+		94B6C4B721F0D5C60048C283 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4B621F0D5C60048C283 /* Series.swift */; };
+		94B6C4B921F0DC740048C283 /* AppEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4B821F0DC740048C283 /* AppEndPoint.swift */; };
+		94B6C4BB21F0DE840048C283 /* DestinyComponentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4BA21F0DE840048C283 /* DestinyComponentType.swift */; };
+		94B6C4BD21F0F2F50048C283 /* ApplicationScopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4BC21F0F2F50048C283 /* ApplicationScopes.swift */; };
+		94B6C4BF21F0F3BF0048C283 /* OAuthApplicationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4BE21F0F3BF0048C283 /* OAuthApplicationType.swift */; };
+		94B6C4C121F0F4200048C283 /* ApplicationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4C021F0F4200048C283 /* ApplicationStatus.swift */; };
+		94B6C4C321F0F4A10048C283 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4C221F0F4A10048C283 /* Application.swift */; };
+		94B6C4C521F0F5080048C283 /* DeveloperRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4C421F0F5080048C283 /* DeveloperRole.swift */; };
+		94B6C4C721F0F52B0048C283 /* ApplicationDeveloper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4C621F0F52B0048C283 /* ApplicationDeveloper.swift */; };
+		94B6C4CD21F2276F0048C283 /* ContentTypeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4CC21F2276F0048C283 /* ContentTypeDescription.swift */; };
+		94B6C4CF21F22B2D0048C283 /* ContentTypeProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4CE21F22B2D0048C283 /* ContentTypeProperty.swift */; };
+		94B6C4D121F23EA00048C283 /* ContentPropertyDataTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4D021F23EA00048C283 /* ContentPropertyDataTypeEnum.swift */; };
+		94B6C4D321F259B90048C283 /* ContentTypeDefaultValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4D221F259B90048C283 /* ContentTypeDefaultValue.swift */; };
+		94B6C4D521F25C8E0048C283 /* TagMetadataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4D421F25C8E0048C283 /* TagMetadataItem.swift */; };
+		94B6C4D721F25D1D0048C283 /* TagMetadataDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4D621F25D1D0048C283 /* TagMetadataDefinition.swift */; };
+		94B6C4D921F25DF20048C283 /* ContentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4D821F25DF20048C283 /* ContentPreview.swift */; };
+		94B6C4DB21F25FB10048C283 /* ContentTypePropertySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6C4DA21F25FB10048C283 /* ContentTypePropertySection.swift */; };
 		94B72D8921D674F0006C6192 /* BungieSwiftAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B72D8721D674F0006C6192 /* BungieSwiftAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94B72D9121D677A8006C6192 /* PlatformErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9021D677A8006C6192 /* PlatformErrorCode.swift */; };
+		94B72D9321D6B839006C6192 /* BungieMembershipType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9221D6B839006C6192 /* BungieMembershipType.swift */; };
+		94B72D9521D6B8E8006C6192 /* UserInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9421D6B8E8006C6192 /* UserInfoCard.swift */; };
+		94B72D9921D6D7F1006C6192 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9821D6D7F1006C6192 /* RequestManager.swift */; };
+		94B72D9C21D6D945006C6192 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9B21D6D945006C6192 /* App.swift */; };
+		94B72D9E21D6D94F006C6192 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9D21D6D94F006C6192 /* User.swift */; };
+		94B72DA021D6D95F006C6192 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72D9F21D6D95F006C6192 /* Content.swift */; };
+		94B72DA221D6D967006C6192 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DA121D6D967006C6192 /* Forum.swift */; };
+		94B72DA421D6D972006C6192 /* GroupV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DA321D6D972006C6192 /* GroupV2.swift */; };
+		94B72DA621D6D981006C6192 /* Destiny2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DA521D6D981006C6192 /* Destiny2.swift */; };
+		94B72DA821D6D990006C6192 /* CommunityContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DA721D6D990006C6192 /* CommunityContent.swift */; };
+		94B72DAA21D6D99B006C6192 /* Trending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DA921D6D99B006C6192 /* Trending.swift */; };
+		94B72DAC21D6D9A8006C6192 /* Fireteam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DAB21D6D9A8006C6192 /* Fireteam.swift */; };
+		94B72DB021D6DC44006C6192 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DAF21D6DC44006C6192 /* EndPointType.swift */; };
+		94B72DB221D6DCA0006C6192 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DB121D6DCA0006C6192 /* HTTPMethod.swift */; };
+		94B72DB421D6DCF6006C6192 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DB321D6DCF6006C6192 /* HTTPTask.swift */; };
+		94B72DB721D6DD92006C6192 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DB621D6DD92006C6192 /* ParameterEncoding.swift */; };
+		94B72DB921D6DE40006C6192 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DB821D6DE40006C6192 /* NetworkError.swift */; };
+		94B72DBB21D6DE8A006C6192 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DBA21D6DE8A006C6192 /* URLParameterEncoder.swift */; };
+		94B72DBD21D6E0F7006C6192 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DBC21D6E0F7006C6192 /* JSONParameterEncoder.swift */; };
+		94B72DBF21D6E4EB006C6192 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DBE21D6E4EB006C6192 /* NetworkRouter.swift */; };
+		94B72DC121D6E699006C6192 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DC021D6E699006C6192 /* Router.swift */; };
+		94B72DC521D986FA006C6192 /* Destiny2EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B72DC421D986FA006C6192 /* Destiny2EndPoint.swift */; };
+		94D8125C21DE9A830092F7F3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8125B21DE9A830092F7F3 /* NetworkManager.swift */; };
+		94F8C8D321FA07CA00821D48 /* UserMembership.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8D221FA07CA00821D48 /* UserMembership.swift */; };
+		94F8C8D521FA082500821D48 /* GeneralUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8D421FA082500821D48 /* GeneralUser.swift */; };
+		94F8C8D721FA093C00821D48 /* UserToUserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8D621FA093C00821D48 /* UserToUserContext.swift */; };
+		94F8C8DA21FA097400821D48 /* IgnoreResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8D921FA097400821D48 /* IgnoreResponse.swift */; };
+		94F8C8DC21FA09D800821D48 /* IgnoreStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8DB21FA09D800821D48 /* IgnoreStatus.swift */; };
+		94F8C8DE21FA0B1700821D48 /* UserMembershipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8DD21FA0B1700821D48 /* UserMembershipData.swift */; };
+		94F8C8E021FA161A00821D48 /* UserEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8DF21FA161A00821D48 /* UserEndPoint.swift */; };
+		94F8C8E221FA24ED00821D48 /* ContentEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F8C8E121FA24ED00821D48 /* ContentEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940C583621EFDAA0008A4304 /* DestinyManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyManifest.swift; sourceTree = "<group>"; };
+		940C583A21EFDC0F008A4304 /* GearAssetDataBaseDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearAssetDataBaseDefinition.swift; sourceTree = "<group>"; };
+		94B6C4AF21F0D55B0048C283 /* DateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRange.swift; sourceTree = "<group>"; };
+		94B6C4B221F0D58B0048C283 /* ApiUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUsage.swift; sourceTree = "<group>"; };
+		94B6C4B421F0D5A60048C283 /* Datapoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datapoint.swift; sourceTree = "<group>"; };
+		94B6C4B621F0D5C60048C283 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		94B6C4B821F0DC740048C283 /* AppEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEndPoint.swift; sourceTree = "<group>"; };
+		94B6C4BA21F0DE840048C283 /* DestinyComponentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyComponentType.swift; sourceTree = "<group>"; };
+		94B6C4BC21F0F2F50048C283 /* ApplicationScopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationScopes.swift; sourceTree = "<group>"; };
+		94B6C4BE21F0F3BF0048C283 /* OAuthApplicationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthApplicationType.swift; sourceTree = "<group>"; };
+		94B6C4C021F0F4200048C283 /* ApplicationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStatus.swift; sourceTree = "<group>"; };
+		94B6C4C221F0F4A10048C283 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		94B6C4C421F0F5080048C283 /* DeveloperRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperRole.swift; sourceTree = "<group>"; };
+		94B6C4C621F0F52B0048C283 /* ApplicationDeveloper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDeveloper.swift; sourceTree = "<group>"; };
+		94B6C4CC21F2276F0048C283 /* ContentTypeDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypeDescription.swift; sourceTree = "<group>"; };
+		94B6C4CE21F22B2D0048C283 /* ContentTypeProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypeProperty.swift; sourceTree = "<group>"; };
+		94B6C4D021F23EA00048C283 /* ContentPropertyDataTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPropertyDataTypeEnum.swift; sourceTree = "<group>"; };
+		94B6C4D221F259B90048C283 /* ContentTypeDefaultValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypeDefaultValue.swift; sourceTree = "<group>"; };
+		94B6C4D421F25C8E0048C283 /* TagMetadataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMetadataItem.swift; sourceTree = "<group>"; };
+		94B6C4D621F25D1D0048C283 /* TagMetadataDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMetadataDefinition.swift; sourceTree = "<group>"; };
+		94B6C4D821F25DF20048C283 /* ContentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPreview.swift; sourceTree = "<group>"; };
+		94B6C4DA21F25FB10048C283 /* ContentTypePropertySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypePropertySection.swift; sourceTree = "<group>"; };
 		94B72D8421D674F0006C6192 /* BungieSwiftAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BungieSwiftAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B72D8721D674F0006C6192 /* BungieSwiftAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BungieSwiftAPI.h; sourceTree = "<group>"; };
 		94B72D8821D674F0006C6192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B72D9021D677A8006C6192 /* PlatformErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformErrorCode.swift; sourceTree = "<group>"; };
+		94B72D9221D6B839006C6192 /* BungieMembershipType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BungieMembershipType.swift; sourceTree = "<group>"; };
+		94B72D9421D6B8E8006C6192 /* UserInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCard.swift; sourceTree = "<group>"; };
+		94B72D9821D6D7F1006C6192 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		94B72D9B21D6D945006C6192 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		94B72D9D21D6D94F006C6192 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		94B72D9F21D6D95F006C6192 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		94B72DA121D6D967006C6192 /* Forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		94B72DA321D6D972006C6192 /* GroupV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupV2.swift; sourceTree = "<group>"; };
+		94B72DA521D6D981006C6192 /* Destiny2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny2.swift; sourceTree = "<group>"; };
+		94B72DA721D6D990006C6192 /* CommunityContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityContent.swift; sourceTree = "<group>"; };
+		94B72DA921D6D99B006C6192 /* Trending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending.swift; sourceTree = "<group>"; };
+		94B72DAB21D6D9A8006C6192 /* Fireteam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fireteam.swift; sourceTree = "<group>"; };
+		94B72DAF21D6DC44006C6192 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		94B72DB121D6DCA0006C6192 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		94B72DB321D6DCF6006C6192 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		94B72DB621D6DD92006C6192 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		94B72DB821D6DE40006C6192 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		94B72DBA21D6DE8A006C6192 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		94B72DBC21D6E0F7006C6192 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		94B72DBE21D6E4EB006C6192 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		94B72DC021D6E699006C6192 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		94B72DC421D986FA006C6192 /* Destiny2EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny2EndPoint.swift; sourceTree = "<group>"; };
+		94D8125B21DE9A830092F7F3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		94F8C8D221FA07CA00821D48 /* UserMembership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMembership.swift; sourceTree = "<group>"; };
+		94F8C8D421FA082500821D48 /* GeneralUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralUser.swift; sourceTree = "<group>"; };
+		94F8C8D621FA093C00821D48 /* UserToUserContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserToUserContext.swift; sourceTree = "<group>"; };
+		94F8C8D921FA097400821D48 /* IgnoreResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreResponse.swift; sourceTree = "<group>"; };
+		94F8C8DB21FA09D800821D48 /* IgnoreStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreStatus.swift; sourceTree = "<group>"; };
+		94F8C8DD21FA0B1700821D48 /* UserMembershipData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMembershipData.swift; sourceTree = "<group>"; };
+		94F8C8DF21FA161A00821D48 /* UserEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEndPoint.swift; sourceTree = "<group>"; };
+		94F8C8E121FA24ED00821D48 /* ContentEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +135,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940C583521EFDA32008A4304 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94B6C4B121F0D57C0048C283 /* Applications */,
+				94B6C4CA21F227520048C283 /* Content */,
+				94B6C4AE21F0D54C0048C283 /* Dates */,
+				940C583821EFDBF3008A4304 /* Destiny */,
+				940C583C21EFE0CB008A4304 /* Exceptions */,
+				94F8C8D821FA096900821D48 /* Ignores */,
+				94B6C4AD21F0CF3B0048C283 /* User */,
+				94B72D9221D6B839006C6192 /* BungieMembershipType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		940C583821EFDBF3008A4304 /* Destiny */ = {
+			isa = PBXGroup;
+			children = (
+				940C583921EFDBF9008A4304 /* Config */,
+				94B6C4BA21F0DE840048C283 /* DestinyComponentType.swift */,
+			);
+			path = Destiny;
+			sourceTree = "<group>";
+		};
+		940C583921EFDBF9008A4304 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				940C583621EFDAA0008A4304 /* DestinyManifest.swift */,
+				940C583A21EFDC0F008A4304 /* GearAssetDataBaseDefinition.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		940C583C21EFE0CB008A4304 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				94B72D9021D677A8006C6192 /* PlatformErrorCode.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		94B6C4AD21F0CF3B0048C283 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				94B72D9421D6B8E8006C6192 /* UserInfoCard.swift */,
+				94F8C8D221FA07CA00821D48 /* UserMembership.swift */,
+				94F8C8D421FA082500821D48 /* GeneralUser.swift */,
+				94F8C8D621FA093C00821D48 /* UserToUserContext.swift */,
+				94F8C8DD21FA0B1700821D48 /* UserMembershipData.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		94B6C4AE21F0D54C0048C283 /* Dates */ = {
+			isa = PBXGroup;
+			children = (
+				94B6C4AF21F0D55B0048C283 /* DateRange.swift */,
+			);
+			path = Dates;
+			sourceTree = "<group>";
+		};
+		94B6C4B121F0D57C0048C283 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				94B6C4B221F0D58B0048C283 /* ApiUsage.swift */,
+				94B6C4B421F0D5A60048C283 /* Datapoint.swift */,
+				94B6C4B621F0D5C60048C283 /* Series.swift */,
+				94B6C4BC21F0F2F50048C283 /* ApplicationScopes.swift */,
+				94B6C4BE21F0F3BF0048C283 /* OAuthApplicationType.swift */,
+				94B6C4C021F0F4200048C283 /* ApplicationStatus.swift */,
+				94B6C4C221F0F4A10048C283 /* Application.swift */,
+				94B6C4C421F0F5080048C283 /* DeveloperRole.swift */,
+				94B6C4C621F0F52B0048C283 /* ApplicationDeveloper.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		94B6C4CA21F227520048C283 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				94B6C4CB21F227580048C283 /* Models */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		94B6C4CB21F227580048C283 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94B6C4CC21F2276F0048C283 /* ContentTypeDescription.swift */,
+				94B6C4CE21F22B2D0048C283 /* ContentTypeProperty.swift */,
+				94B6C4D021F23EA00048C283 /* ContentPropertyDataTypeEnum.swift */,
+				94B6C4D221F259B90048C283 /* ContentTypeDefaultValue.swift */,
+				94B6C4D421F25C8E0048C283 /* TagMetadataItem.swift */,
+				94B6C4D621F25D1D0048C283 /* TagMetadataDefinition.swift */,
+				94B6C4D821F25DF20048C283 /* ContentPreview.swift */,
+				94B6C4DA21F25FB10048C283 /* ContentTypePropertySection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		94B72D7A21D674F0006C6192 = {
 			isa = PBXGroup;
 			children = (
@@ -48,19 +254,100 @@
 		94B72D8621D674F0006C6192 /* BungieSwiftAPI */ = {
 			isa = PBXGroup;
 			children = (
-				94B72D8F21D674FE006C6192 /* Models */,
+				940C583521EFDA32008A4304 /* Model */,
+				94B72DAD21D6DC27006C6192 /* Networking */,
+				94B72D9A21D6D938006C6192 /* Tags */,
+				94B72D9721D6D0D0006C6192 /* Enums */,
 				94B72D8721D674F0006C6192 /* BungieSwiftAPI.h */,
 				94B72D8821D674F0006C6192 /* Info.plist */,
+				94B72D9821D6D7F1006C6192 /* RequestManager.swift */,
 			);
 			path = BungieSwiftAPI;
 			sourceTree = "<group>";
 		};
-		94B72D8F21D674FE006C6192 /* Models */ = {
+		94B72D9721D6D0D0006C6192 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				94B72D9021D677A8006C6192 /* PlatformErrorCode.swift */,
 			);
-			path = Models;
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		94B72D9A21D6D938006C6192 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				94B72D9B21D6D945006C6192 /* App.swift */,
+				94B72D9D21D6D94F006C6192 /* User.swift */,
+				94B72D9F21D6D95F006C6192 /* Content.swift */,
+				94B72DA121D6D967006C6192 /* Forum.swift */,
+				94B72DA321D6D972006C6192 /* GroupV2.swift */,
+				94B72DA521D6D981006C6192 /* Destiny2.swift */,
+				94B72DA721D6D990006C6192 /* CommunityContent.swift */,
+				94B72DA921D6D99B006C6192 /* Trending.swift */,
+				94B72DAB21D6D9A8006C6192 /* Fireteam.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		94B72DAD21D6DC27006C6192 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				94B72DC321D986C7006C6192 /* Manager */,
+				94B72DC221D986BC006C6192 /* EndPoint */,
+				94B72DB521D6DD7B006C6192 /* Encoding */,
+				94B72DAE21D6DC2F006C6192 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		94B72DAE21D6DC2F006C6192 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				94B72DAF21D6DC44006C6192 /* EndPointType.swift */,
+				94B72DB121D6DCA0006C6192 /* HTTPMethod.swift */,
+				94B72DB321D6DCF6006C6192 /* HTTPTask.swift */,
+				94B72DB821D6DE40006C6192 /* NetworkError.swift */,
+				94B72DBE21D6E4EB006C6192 /* NetworkRouter.swift */,
+				94B72DC021D6E699006C6192 /* Router.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		94B72DB521D6DD7B006C6192 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				94B72DB621D6DD92006C6192 /* ParameterEncoding.swift */,
+				94B72DBA21D6DE8A006C6192 /* URLParameterEncoder.swift */,
+				94B72DBC21D6E0F7006C6192 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		94B72DC221D986BC006C6192 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				94B72DC421D986FA006C6192 /* Destiny2EndPoint.swift */,
+				94B6C4B821F0DC740048C283 /* AppEndPoint.swift */,
+				94F8C8DF21FA161A00821D48 /* UserEndPoint.swift */,
+				94F8C8E121FA24ED00821D48 /* ContentEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		94B72DC321D986C7006C6192 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				94D8125B21DE9A830092F7F3 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		94F8C8D821FA096900821D48 /* Ignores */ = {
+			isa = PBXGroup;
+			children = (
+				94F8C8D921FA097400821D48 /* IgnoreResponse.swift */,
+				94F8C8DB21FA09D800821D48 /* IgnoreStatus.swift */,
+			);
+			path = Ignores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +429,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B6C4C321F0F4A10048C283 /* Application.swift in Sources */,
+				94B72DC121D6E699006C6192 /* Router.swift in Sources */,
+				94F8C8DA21FA097400821D48 /* IgnoreResponse.swift in Sources */,
+				94B6C4DB21F25FB10048C283 /* ContentTypePropertySection.swift in Sources */,
+				94B72DBD21D6E0F7006C6192 /* JSONParameterEncoder.swift in Sources */,
+				94B6C4B921F0DC740048C283 /* AppEndPoint.swift in Sources */,
+				94B72DBB21D6DE8A006C6192 /* URLParameterEncoder.swift in Sources */,
+				94B72DAA21D6D99B006C6192 /* Trending.swift in Sources */,
+				94B6C4B321F0D58B0048C283 /* ApiUsage.swift in Sources */,
+				940C583721EFDAA0008A4304 /* DestinyManifest.swift in Sources */,
+				94F8C8E221FA24ED00821D48 /* ContentEndPoint.swift in Sources */,
+				94F8C8D521FA082500821D48 /* GeneralUser.swift in Sources */,
+				94B6C4B521F0D5A60048C283 /* Datapoint.swift in Sources */,
+				94B6C4B021F0D55B0048C283 /* DateRange.swift in Sources */,
+				94B72D9521D6B8E8006C6192 /* UserInfoCard.swift in Sources */,
+				94F8C8D721FA093C00821D48 /* UserToUserContext.swift in Sources */,
+				94B6C4BD21F0F2F50048C283 /* ApplicationScopes.swift in Sources */,
+				94B6C4D721F25D1D0048C283 /* TagMetadataDefinition.swift in Sources */,
+				94B6C4BB21F0DE840048C283 /* DestinyComponentType.swift in Sources */,
 				94B72D9121D677A8006C6192 /* PlatformErrorCode.swift in Sources */,
+				94B6C4C121F0F4200048C283 /* ApplicationStatus.swift in Sources */,
+				94F8C8DE21FA0B1700821D48 /* UserMembershipData.swift in Sources */,
+				94B72DA021D6D95F006C6192 /* Content.swift in Sources */,
+				94B72DC521D986FA006C6192 /* Destiny2EndPoint.swift in Sources */,
+				94B72DA421D6D972006C6192 /* GroupV2.swift in Sources */,
+				94B72D9E21D6D94F006C6192 /* User.swift in Sources */,
+				94F8C8E021FA161A00821D48 /* UserEndPoint.swift in Sources */,
+				94B72DB021D6DC44006C6192 /* EndPointType.swift in Sources */,
+				94B72DB721D6DD92006C6192 /* ParameterEncoding.swift in Sources */,
+				94D8125C21DE9A830092F7F3 /* NetworkManager.swift in Sources */,
+				94B72DB221D6DCA0006C6192 /* HTTPMethod.swift in Sources */,
+				94B6C4D321F259B90048C283 /* ContentTypeDefaultValue.swift in Sources */,
+				94B72D9321D6B839006C6192 /* BungieMembershipType.swift in Sources */,
+				94B72DA821D6D990006C6192 /* CommunityContent.swift in Sources */,
+				94B6C4C521F0F5080048C283 /* DeveloperRole.swift in Sources */,
+				94B72DAC21D6D9A8006C6192 /* Fireteam.swift in Sources */,
+				94B6C4C721F0F52B0048C283 /* ApplicationDeveloper.swift in Sources */,
+				94B6C4BF21F0F3BF0048C283 /* OAuthApplicationType.swift in Sources */,
+				94B72D9C21D6D945006C6192 /* App.swift in Sources */,
+				94B6C4CF21F22B2D0048C283 /* ContentTypeProperty.swift in Sources */,
+				94B72DB421D6DCF6006C6192 /* HTTPTask.swift in Sources */,
+				94F8C8DC21FA09D800821D48 /* IgnoreStatus.swift in Sources */,
+				94B72DA621D6D981006C6192 /* Destiny2.swift in Sources */,
+				94B6C4D121F23EA00048C283 /* ContentPropertyDataTypeEnum.swift in Sources */,
+				94B6C4D921F25DF20048C283 /* ContentPreview.swift in Sources */,
+				94B6C4CD21F2276F0048C283 /* ContentTypeDescription.swift in Sources */,
+				94B6C4B721F0D5C60048C283 /* Series.swift in Sources */,
+				940C583B21EFDC0F008A4304 /* GearAssetDataBaseDefinition.swift in Sources */,
+				94B6C4D521F25C8E0048C283 /* TagMetadataItem.swift in Sources */,
+				94F8C8D321FA07CA00821D48 /* UserMembership.swift in Sources */,
+				94B72DB921D6DE40006C6192 /* NetworkError.swift in Sources */,
+				94B72D9921D6D7F1006C6192 /* RequestManager.swift in Sources */,
+				94B72DA221D6D967006C6192 /* Forum.swift in Sources */,
+				94B72DBF21D6E4EB006C6192 /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
